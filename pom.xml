@@ -4,16 +4,16 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>dad.template</groupId>
-	<artifactId>JavaFX</artifactId>
+	<groupId>dad.javafx.imc</groupId>
+	<artifactId>imc</artifactId>
 	<version>1.0.0</version>
 
-	<name>JavaFXProjectTemplate</name>
-	<description>Proyecto base en Eclipse para Maven con soporte para JavaFX 11</description>
+	<name>IMC</name>
+	<description>Proyecto base en Eclipse calcular el IMC</description>
 
 	<properties>
-		<maven.compiler.target>11</maven.compiler.target>
-		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>14</maven.compiler.target>
+		<maven.compiler.source>14</maven.compiler.source>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>	
 		<exec.mainClass>dad.template.javafx.Main</exec.mainClass>
 	</properties>
@@ -22,12 +22,12 @@
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-controls</artifactId>
-			<version>11.0.1</version>
+			<version>14.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-fxml</artifactId>
-			<version>11.0.1</version>
+			<version>14.0.1</version>
 		</dependency>
 	</dependencies>
 
