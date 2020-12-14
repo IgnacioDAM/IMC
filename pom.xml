@@ -15,7 +15,7 @@
 		<maven.compiler.target>14</maven.compiler.target>
 		<maven.compiler.source>14</maven.compiler.source>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>	
-		<exec.mainClass>dad.javafx.Main</exec.mainClass>
+		<exec.mainClass>dad.javafx.imc.Main</exec.mainClass>
 	</properties>
 
 	<dependencies>
